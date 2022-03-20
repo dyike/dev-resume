@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css" type="text/css" />
+  <title>Dev-Resume | ityike</title>
+</head>
+<body class="font-sans antialiased w-full">
+  <div class="container mx-auto max-w-screen-xl">
+    <main id="wrapper" class="flex flex-col sm:flex-row-reverse sm:m-8 shadow-2xl">
+      <div id="sidebar" class="w-full sm:max-w-sm p-8 bg-gradient-to-b from-indigo-300 via-green-300 to-white">
+        <div class="px-2 mb-12">
+          <img src="./assets/head-outline.jpg" alt=""
+              class="rounded-full w-32 mx-auto mb-2"/>
+          <h1 class="text-center text-3xl font-semibold mb-2">ityike</h1>
+          <h2 class="text-center text-xl font-light">服务端研发工程师</h2>
+        </div>
+
+        <div class="font-light text-lg px-2 mb-6">
+          <h2 class="text-xl font-semibold mb-1">Contact. 联系方式</h2>
+          <div class="flex items-center my-3">
+            <img src="./assets/email.svg" class="inline w-6 mr-4"/>
+            <a href="mailto:">i@ityike.com</a>
+          </div>
+          <div class="flex items-center my-3">
+            <img src="./assets/phone.svg" class="inline w-6 mr-4"/>
+            <a href="tel:">+86 18600000000</a>
+          </div>
+          <div class="flex items-center my-3">
+            <img src="./assets/address.svg" class="inline w-6 pb-1 mr-4"/>
+            <div>
+              <p>中国 上海</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="font-light text-lg px-2 mb-6">
+          <h2 class="text-xl font-semibold mb-4">Personal. 个人信息</h2>
+          <div class="flex items-center my-3">
+            <img src="./assets/egg.svg" class="inline w-6 mr-4"/>
+            <span>2022-01-01</span>
+          </div>
+          <div class="flex items-center my-3">
+            <img src="./assets/people.svg" class="inline w-6 mr-4"/>
+            <span>未婚</span>
+          </div>
+        </div>
+
+        <div class="font-light text-lg px-2 mb-6">
+          <h2 class="text-xl font-semibold mb-4">Education. 教育情况</h2>
+          <h4 class="font-semibold">本科 / 计算机科学与技术</h4>
+          <span>2022 - 至今 大学名称</span>
+        </div>
+
+        <div class="font-light text-lg px-2 mb-6">
+          <h2 class="text-xl font-semibold mb-4">Skills & Tools</h2>
+          <ul class="list-none">
+            <!-- <li>
+              <label for="cc-skill">C / C++</label>
+              <progress id="cc-skill" max="100" value="70"></progress>
+            </li>
+            <li>
+              <label for="go-skill">Golang</label>
+              <progress id="go-skill" max="100" value="66"></progress>
+            </li>
+            <li>
+              <label for="lua-skill">OpenResty</label>
+              <progress id="react-skill" max="100" value="70"></progress>
+            </li>
+            <li>
+              <label for="php-skill">PHP</label>
+              <progress id="php-skill" max="100" value="72"></progress>
+            </li>
+            <li>
+              <label for="video-skill">DaVinci Reslove</label>
+              <progress id="video-skill" max="100" value="60"></progress>
+            </li>
+            <li>
+              <label for="figma-skill">Figma</label>
+              <progress id="figma-skill" max="100" value="45"></progress>
+            </li>
+            <li>
+              <label for="vim-skill">vim</label>
+              <progress id="vim-skill" max="100" value="70"></progress>
+            </li> -->
+            <li>
+              <div>其他</div>
+              <p class="leading-8">
+                <span class="rounded-xl bg-gray-300 px-3">云服务</span>
+                <span class="rounded-xl bg-gray-300 px-3">家庭NAS</span>
+                <span class="rounded-xl bg-gray-300 px-3">软路由</span>
+                <span class="rounded-xl bg-gray-300 px-3">Grafana</span>
+                <span class="rounded-xl bg-gray-300 px-3">Prometheus</span>
+              </p>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="content w-full p-6">
+        <div id="profile" class="prose">
+          <h2 class="section-headline">个人简介</h2>
+          <p>
+            这儿是简单的自我介绍，你可以随便写点东西，自由发挥。这儿是简单的自我介绍，你可以随便写点东西，自由发挥。
+            这儿是简单的自我介绍，你可以随便写点东西，自由发挥。这儿是简单的自我介绍，你可以随便写点东西，自由发挥。
+          </p>
+          <p>
+            目前我正在寻找服务端开发工程师的岗位，希望借此机会为贵司献上我的一点绵薄之力，快招我到碗里来吧！
+          </p>
+        </div>
+        <hr class="mt-6 mb-6" />
+        <div id="experience" class="prose">
+          <h2 class="section-headline">工作经历</h2>
+          <div>
+            <h3>上海XXXXX科技有限公司（2022.1 - 至今）</h3>
+            <section class="mb-6">
+              <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2 font-semibold">
+                项目一(2022-至今):
+              </div>
+              <div class="lg:inline-block lg:w-8/12 w-full">
+                <p class="leading-6">项目一的主要介绍，写出能体现项目牛逼的点；</p>
+                <p class="leading-6">项目一的性能牛逼点，用数据量化体现更直接更直观；</p>
+                <p class="leading-6">项目一的性能牛逼点，用数据量化体现更直接更直观；</p>
+              </div>
+            </section>
+            <section class="mb-6">
+              <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2 font-semibold">
+                项目二(2022-至今):
+              </div>
+              <div class="lg:inline-block lg:w-8/12 w-full">
+                <p class="leading-6">项目二的主要介绍，写出能体现项目牛逼的点；</p>
+                <p class="leading-6">项目二的性能牛逼点，用数据量化体现更直接更直观；</p>
+                <p class="leading-6">项目二的性能牛逼点，用数据量化体现更直接更直观；</p>
+              </div>
+            </section>
+       
+            <section class="mb-6">
+              <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2 font-semibold">
+                技术栈:
+              </div>
+              <div class="lg:inline-block lg:w-8/12 w-full">
+                <span class="rounded-xl bg-gray-300 px-3">C/C++</span>
+                <span class="rounded-xl bg-gray-300 px-3">OpenResty/Lua</span>
+                <span class="rounded-xl bg-gray-300 px-3">Go</span>
+                <span class="rounded-xl bg-gray-300 px-3">Docker</span>
+              </div>
+            </section>
+          </div>
+          <div>
+            <h3>上海XXXXX科技有限公司（2022.1 - 至今）</h3>
+            <section class="mb-6">
+              <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2 font-semibold">
+                项目一(2022-至今):
+              </div>
+              <div class="lg:inline-block lg:w-8/12 w-full">
+                <p class="leading-6">项目一的主要介绍，写出能体现项目牛逼的点；</p>
+                <p class="leading-6">项目一的性能牛逼点，用数据量化体现更直接更直观；</p>
+                <p class="leading-6">项目一的性能牛逼点，用数据量化体现更直接更直观；</p>
+              </div>
+            </section>
+            <section class="mb-6">
+              <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2 font-semibold">
+                项目二(2022-至今):
+              </div>
+              <div class="lg:inline-block lg:w-8/12 w-full">
+                <p class="leading-6">项目二的主要介绍，写出能体现项目牛逼的点；</p>
+                <p class="leading-6">项目二的性能牛逼点，用数据量化体现更直接更直观；</p>
+                <p class="leading-6">项目二的性能牛逼点，用数据量化体现更直接更直观；</p>
+              </div>
+            </section>
+            <section class="mb-6">
+              <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2 font-semibold">
+                技术栈:
+              </div>
+              <div class="lg:inline-block lg:w-8/12 w-full">
+                <span class="rounded-xl bg-gray-300 px-3">PHP</span>
+                <span class="rounded-xl bg-gray-300 px-3">Laravel</span>
+                <span class="rounded-xl bg-gray-300 px-3">Git</span>
+                <span class="rounded-xl bg-gray-300 px-3">Docker</span>
+              </div>
+            </section>
+          </div>
+        </div>
+        
+        <hr class="mt-8 mb-12" />
+        <div id="projects" class="prose">
+          <h2 class="section-headline">技术拓展</h2>
+          <div class="mb-16">
+            <h4 id="expand-knowledge-headline">
+              平时还会在以下几方面拓展技术：
+            </h4>
+            <ul>
+              <li>Swift，移动端开发</li>
+              <li>单元测试，让服务上线前尽可能规避一些问题</li>
+              <li>云游戏，应用服务云端化解决方案</li>
+              <li>美食，喜欢跟着美食up主研发美食</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <footer class="mt-12 text-center flex justify-center flex-col md:flex-row mx-12">
+    <a href="https://www.dyike.com/"
+      class="text-sm px-4 py-2 m-2 text-gray-600 border-gray-400 border-2 rounded flex-shrink-0">
+      Made with ❤️ by ityike</a>
+    <a href="https://tailwindcss.com/"
+      class="text-sm px-4 py-2 m-2 text-gray-600 border-gray-400 border-2 rounded flex-shrink-0">
+      TailwindCSS</a>
+    <a
+      href="https://vitejs.dev/"
+      class="text-sm px-4 py-2 m-2 text-gray-600 border-gray-400 border-2 rounded flex-shrink-0"
+      >Vite</a
+    >    
+  </footer>
+</body>
+
+</html>
